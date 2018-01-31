@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- My CSS -->
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="mq.css">
+	
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- Google jQuery CDN -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Scroll Up -->
+	<script src="jquery.scrollUp.min.js"></script>
+	<title>Tom Eloe</title>
+</head>
+<body>
+	
+	<div class="wrapper">
+
+		<!-- HERO -->
+		
+		<div class="section hero">
+			<div class="hero-txt">
+				<h1>Hi, I'm Tom :)</h1>
+				<h4>I'm a software developer proficient in</h4>
+				<h4><span style="color: #fff" class="type-it"></span></h4>
+				<a  class="learn-more" href="#"><p style="margin-bottom: 5px">Learn more about me</p><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+			</div>
+			<a href="#" class="scroll-top"><img class="up-img" src="up.png">Top</a>
+		</div>
+
+		<!-- ABOUT -->
+
+		<div class="section about">
+			<h3>About Me</h3>
+			
+			<div class="section-content">
+				<div class="me-photo">
+					<img class="profilepic" src="profilepic.jpg" alt="Me and my wife, Natalie">
+					<figcaption>Me and my wife, Natalie ❤️</figcaption>
+				</div>
+
+				<p>My name is Tom Eloe and I’m a software developer with a background in insurance.</p>	
+				<p>For the last six years I worked at Allstate Insurance where I managed two branch locations at one of the largest Allstate agencies in CA. During my time there I discovered I have a passion for coding while I taught myself the basics (HTML, CSS, JavaScript) after work or during lunch.</p>
+				<p>When I built my first website I felt inspired and knew that a career in web development was something I wanted to pursue. I recently graduated from Coding Dojo bootcamp where I accumulated over 1000 hours of intensive coding experience learning python, ruby on rails and the mean stack.</p> 
+				<p>My goal now is to secure a job in an environment where I can hone my skills and build a career as a software developer.</p>
+			</div>
+
+			<p class="hire-txt">I'm eager to put my skills to use.</p> 
+			<p class="hire-txt" style="margin-bottom: 30px;">If you know of any opportunities, then please <a id="email" href="mailto:tomeloe@gmail.com" target="_blank">email me.</a></p>
+		</div>
+		
+		<!-- EXPERIENCE -->
+
+		<div class="section experience">
+			<h3>Experience</h3>
+			
+			<div class="section-content">
+				<div class="job-row">
+					
+					<div class="job-heading">
+						<i class="fa fa-briefcase" aria-hidden="true"></i>
+						<h6>Coding Dojo</h6>
+						<h6 class="job-info">Student</h6>
+						<h6 class="job-info">August 2017 - November 2017</h6>
+					</div>
+					
+					<div class="job-duties">
+						<p>❏ Completed 14 week immersive training program, gaining over 1000 hours of intensive coding experience</p>
+						<p>❏ Participated in additional study in computer theory and algorithms</p>
+					</div>
+				</div>
+
+				<div class="job-row">
+					<div class="job-heading">
+						<i class="fa fa-briefcase" aria-hidden="true"></i>
+						<h6>LCSB Insurance Services, Inc.</h6>
+						<h6 class="job-info">Agency Manager</h6>
+						<h6 class="job-info">May 2015 - August 2017</h6>
+					</div>
+					
+					<div class="job-duties">
+						<p>❏ Managed 10 - 15 staff between three branch locations at one of the largest Allstate Insurance agencies in California</p>
+						<p>❏ Performed administrative tasks such as maintaining records, calculating bonuses, conducting interviews and developing commission structures</p>
+					</div>
+				</div>
+
+				<div class="job-row">
+					<div class="job-heading">
+						<i class="fa fa-briefcase" aria-hidden="true"></i>
+						<h6>LCSB Insurance Services, Inc.</h6>
+						<h6 class="job-info">Commercial Lines Manager</h6>
+						<h6 class="job-info">October 2013 - May 2015</h6>
+					</div>
+
+					<div class="job-duties">
+						<p>❏ Managed team of three to five sales staff helping the agency grow commercial business through telemarketing campaigns</p>
+						<p>❏ Contributed to agency’s achievement of becoming one of the top producing commercial writers in California</p>
+					</div>
+				</div>	
+			</div>	
+
+				<a class="resume-btn" href="resume1.pdf" target="_blank">Download Resume</a>
+
+		</div>
+
+		<!-- PROJECTS -->
+
+		<div class="section projects">
+			<h3>Personal Projects</h3>
+			<div class="section-content">
+				
+			<div class="projects-row">
+				<div class="projects-col">
+					<img class="projects-img" src="comp.png">
+					<h5>Rails - Events</h5>
+					<p class="projects-txt">Rails application wherein a user can create, edit, delete and join events. The logged in user can also put comments on the discussion board per event.</p>
+					<a class="gh-link" href="https://github.com/teloe/rails_events" target="_blank">View my code</a>
+				</div>
+				<div class="projects-col">
+					<img class="projects-img" src="comp.png">
+					<h5>Rails/ React - Idea Board</h5>
+					<p class="projects-txt">Rails application where user can create, edit, update and delete idea cards on an idea board using React as frontend framework.</p>
+					<a class="gh-link" href="https://github.com/teloe/rails_project" target="_blank">View my code</a>
+				</div>
+				<div class="projects-col">
+					<img class="projects-img" src="comp.png">
+					<h5>Angular - Weather App</h5>
+					<p class="projects-txt">Angular app which presents the user with six different urls/ views that presents a Coding Dojo city. Within each of these views is the current weather information using OpenWeatherMap API.</p>
+					<a class="gh-link" href="https://github.com/teloe/dojo_weather_app" target="_blank">View my code</a>
+				</div>
+			</div>
+
+			</div>
+		
+		</div>
+
+		<!-- CONTACT -->
+
+		<div class="section contact">
+			<h3>Contact</h3>
+			<div class="section-content">
+				<p>I am currently seeking employment and excited to get started!</p>
+				<p>Please contact me if you like my work.</p>
+
+			<!-- FORM -->
+
+				<form method="post" action="contactengine.php">
+					<label for="Name">Name:</label>
+					<input type="text" name="Name" id="Name">
+		
+					<label for="Email">Email:</label>
+					<input type="email" name="Email" id="Email">
+					
+					<label for="Message">Message:</label>
+					<textarea name="Message" rows="20" cols="20" id="Message"></textarea>
+
+					<input id="submit-btn" type="submit" name="submit" value="Send" class="submit-button">
+				</form>
+
+			</div>
+		</div>
+
+		<!-- FOOTER -->
+		<footer>
+			<div id="footer-txt">
+				<p style="margin: 10px 0 0;">Handmade by Tom &copy; 2018</p>
+				<a class="social-icon" href="https://www.linkedin.com/in/tomeloe" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+				<a class="social-icon" href="https://github.com/teloe" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+			</div>	
+		</footer>
+	</div>
+
+	<!-- Typeit Plugin -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/5.2.0/typeit.js"></script>
+	<script src="typeit.js"></script>
+
+	<!-- My JS -->
+	<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
